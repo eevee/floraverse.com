@@ -1,0 +1,5 @@
+*.pyc
+.*.sw*
+.sw*
+/*.egg-info/
+__pycache__/
