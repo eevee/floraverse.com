@@ -20,9 +20,9 @@ ${request.registry.spline_plugins['comic'].render(context, request, 'latest-page
     <div style="display: flex; margin: 1em 0.5em;">
         ## the money box goes right here yep
         <div style="flex: 1; margin: 1em;">
-            <img src="/static/images/home-hiveworks.png" style="width: 100%;">
+            <a href="http://www.thehiveworks.com/"><img src="/static/images/home-hiveworks.png" style="width: 100%;"></a>
             <br>
-            <img src="/static/images/home-patreon.png" style="width: 100%;">
+            <a href="https://www.patreon.com/floraverse"><img src="/static/images/home-patreon.png" style="width: 100%;"></a>
         </div>
 
         <div class="ad ad-160x600">
