@@ -44,7 +44,7 @@
                     <li><a href="/comic/flora/archive/"><img src="/static/images/global-nav-archive.png" alt="archive"></a></li>
                     <li><a href="/about"><img src="/static/images/global-nav-about.png" alt="about"></a></li>
                     <li><a href="/contact"><img src="/static/images/global-nav-contact.png" alt="contact"></a></li>
-                    <li><a href="/chatroom"><img src="/static/images/global-nav-chatroom.png" alt="chatroom"></a></li>
+                    <li><a href="irc://irc.veekun.com/flora"><img src="/static/images/global-nav-chatroom.png" alt="chatroom"></a></li>
                 </ul>
             </nav>
         </div>
