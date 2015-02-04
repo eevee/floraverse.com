@@ -52,7 +52,7 @@
             <img src="/static/images/global-bush-right.png">
             <img src="/static/images/global-bush-words-right.png" alt="Updates Monday/Wednesday/Friday" class="floraverse-bush-words">
 
-            <a href="/rss" title="RSS" class="floraverse-button floraverse-button-rss">
+            <a href="/@@feed" title="RSS" class="floraverse-button floraverse-button-rss">
                 <img src="/static/images/global-button-rss-flower.png">
                 <img src="/static/images/global-button-rss-logo.png" alt="RSS">
             </a>
