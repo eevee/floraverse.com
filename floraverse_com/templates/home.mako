@@ -1,4 +1,5 @@
 <%inherit file="spline:templates/home.mako"/>
+<%! import random %>
 
 <%block name="main">
 <main class="front-page-layout">
@@ -26,7 +27,10 @@ ${request.registry.spline_plugins['comic'].render(context, request, 'latest-page
         </div>
 
         <div class="ad ad-160x600">
-            <script>/* [id322] www.floraverse.com - tower */ OA_show(322);</script><noscript><a target="_blank" href="http://ads.thehiveworks.com/delivery/ck.php?n=dda9649"><img border="0" alt="" src="http://ads.thehiveworks.com/delivery/avw.php?zoneid=322&amp;n=dda9649"></a></noscript>
+            <!--/* Zone www.floraverse.com Floraverse - 160x600 */-->
+            <% cachebuster = random.randrange(1000000) %>
+            <iframe id="ac5947a7" name="ac5947a7" src="http://162.218.115.228/delivery/afr.php?n=ac5947a7&amp;zoneid=147&amp;target=_blank&amp;cb=${cachebuster}" frameborder="0" scrolling="no" width="160" height="600" allowtransparency="true"><a href="http://162.218.115.228/delivery/ck.php?n=a42b206d&amp;cb=${cachebuster}" target="_blank"><img src="http://162.218.115.228/delivery/avw.php?zoneid=147&amp;cb=${cachebuster}&amp;n=a42b206d" border="0" alt=""></a></iframe>
+            <script type="text/javascript" src="http://162.218.115.228/delivery/ag.php"></script>
         </div>
     </div>
     <!--

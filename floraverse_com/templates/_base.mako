@@ -1,4 +1,5 @@
 <%inherit file="spline:templates/_base.mako"/>
+<%! import random %>
 
 <%block name="head_extra">
     ${parent.head_extra()}
@@ -68,7 +69,10 @@
 
 <%block name="main">
     <div class="ad ad-728x90">
-        <script>/* [id321] www.floraverse.com - leader */ OA_show(321);</script><noscript><a target="_blank" href="http://ads.thehiveworks.com/delivery/ck.php?n=dda9649"><img border="0" alt="" src="http://ads.thehiveworks.com/delivery/avw.php?zoneid=321&amp;n=dda9649"></a></noscript>
+        <!--/* Zone www.floraverse.com Floraverse - 728x90 */-->
+        <% cachebuster = random.randrange(1000000) %>
+        <iframe id="a474cc64" name="a474cc64" src="http://162.218.115.228/delivery/afr.php?n=a474cc64&amp;zoneid=146&amp;target=_blank&amp;cb=${cachebuster}" frameborder="0" scrolling="no" width="728" height="90" allowtransparency="true"><a href="http://162.218.115.228/delivery/ck.php?n=ac23bdad&amp;cb=${cachebuster}" target="_blank"><img src="http://162.218.115.228/delivery/avw.php?zoneid=146&amp;cb=${cachebuster}&amp;n=ac23bdad" border="0" alt=""></a></iframe>
+        <script type="text/javascript" src="http://162.218.115.228/delivery/ag.php"></script>
     </div>
     ${parent.main()}
 </%block>
