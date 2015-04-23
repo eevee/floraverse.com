@@ -48,7 +48,7 @@
                     <li><a href="irc://irc.veekun.com/flora"><img src="/static/images/global-nav-chatroom.png" alt="chatroom"></a></li>
                 </ul>
             </nav>
-            <div style="text-align: center;"><a href="kickstarter"><img src="http://papayakitty.com/stayout/kssitecr.png"></a></div>
+            <div style="text-align: center;"><a href="https://www.kickstarter.com/projects/1489570965/floraverse-seeds-a-mini-story-bringing-book-one-to"><img src="http://papayakitty.com/stayout/kssitecr.png"></a></div>
         </div>
         <div class="floraverse-bush-right">
             <img src="/static/images/global-bush-right.png">
