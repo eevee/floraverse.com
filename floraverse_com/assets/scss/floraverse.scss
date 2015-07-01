@@ -1,0 +1,146 @@
+@import "vendor/flex";
+@import "defs";
+
+body {
+    background: url(/static/images/global-background-squares.png) $body-bg-color fixed;
+}
+
+body > header {
+    padding: 0.5em;
+    background: #44436f;
+}
+
+.floraverse-header {
+    @include flexbox;
+    @include justify-content(center);
+    @include align-content(flex-start);
+}
+.floraverse-bush-left,
+.floraverse-bush-right {
+    @include flex(none);
+    @include flexbox;
+    @include flex-direction(column);
+    @include justify-content(space-between);
+    @include align-items(center);
+    padding: 0.5em;
+    background: #cac6cf;
+
+    > .-spacer {
+        @include flex(1);
+    }
+}
+.floraverse-banner {
+    z-index: 0;  // force to draw atop both side panels
+    @include flex(1 0);
+    @include flexbox;
+    @include align-items(flex-end);
+    @include justify-content(center);
+    margin: 0 0.5em;
+    background-color: #817390;
+    // TODO alas i can't get an asset url from in here, so i gotta hardcode this
+    background-image:
+        url(/static/images/global-title-background-full.png);
+    background-position: center, center;
+    background-repeat: repeat;
+
+    > img {
+        @include flex(none);
+    }
+    .floraverse-banner--left {
+        // space between beleth's tail and the logo
+        margin-right: -50px;
+        // beleth's overlap with the left box
+        margin-left: -30px;
+    }
+    .floraverse-banner--logo {
+        padding: 2px 0;
+    }
+    .floraverse-banner--right {
+        // space between the logo and andre's...  nose
+        margin-left: -110px;
+        // andre's overlap with the frame
+        margin-bottom: -19px;
+        // andre's overlap with the right box
+        margin-right: -40px;
+    }
+}
+
+.floraverse-bush-words {
+    @include flex(none);
+}
+
+.floraverse-button {
+    @include flex(none);
+    @include flexbox;
+    @include align-items(center);
+    @include justify-content(center);
+    width: 32px;
+    height: 32px;
+    transition: outline 0.2s linear;
+    outline: 0 solid hsl(283, 29%, 57%);
+
+    img {
+        display: block;
+    }
+    &:hover {
+        outline: 2px solid hsl(283, 29%, 57%);
+    }
+}
+.floraverse-button-deviantart {
+    background: #3a6057;
+}
+.floraverse-button-twitter {
+    background: white;
+}
+.floraverse-button-tumblr {
+    background: #160d4a;
+}
+.floraverse-button-patreon {
+    background: white;
+}
+.floraverse-button-facebook {
+    background: #324274;
+}
+.floraverse-button-rss {
+    background: white;
+}
+
+.floraverse-navbar {
+    z-index: -1;
+    margin-top: 0.5em;
+    padding: 0.5em;
+
+    color: white;
+    background: #242254;
+
+    > ul {
+        @include flexbox;
+        @include flex-wrap(wrap);
+        @include justify-content(space-around);
+        @include align-items(center);
+
+        margin: 0;
+
+        a, img {
+            display: block;
+        }
+
+        > li {
+            opacity: 0.9;
+            transform-origin: center;
+            transition: 0.2s linear;
+
+            &:hover {
+                opacity: 1;
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+
+// hiveworks "jumpbar"
+#ibar {
+    height: 49px;  // word of god
+    padding: 0;
+    margin: 1em 0.5em;
+}
