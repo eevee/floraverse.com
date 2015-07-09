@@ -21,12 +21,11 @@ ${request.registry.spline_plugins['comic'].render(context, request, 'latest-page
     <div id="ibar"></div>
     <script src="http://www.thehiveworks.com/jumpbar.js"></script>
 
-    <div style="display: flex; margin: 1em 0.5em;">
+    <div class="floraverse-front-page-sidebar">
         ## the money box goes right here yep
-        <div style="flex: 1; margin: 1em;">
-            <a href="http://www.thehiveworks.com/"><img src="/static/images/home-hiveworks.png" style="width: 100%;"></a>
-            <br>
-            <a href="https://www.patreon.com/floraverse"><img src="/static/images/home-patreon.png" style="width: 100%;"></a>
+        <div class="floraverse-front-page-sidebar-merch">
+            <a href="http://www.thehiveworks.com/"><img src="/static/images/home-hiveworks.png"></a>
+            <a href="https://www.patreon.com/floraverse"><img src="/static/images/home-patreon.png"></a>
         </div>
 
         <div class="ad ad-160x600">
@@ -35,6 +34,9 @@ ${request.registry.spline_plugins['comic'].render(context, request, 'latest-page
             <iframe id="ac5947a7" name="ac5947a7" src="http://162.218.115.228/delivery/afr.php?n=ac5947a7&amp;zoneid=147&amp;target=_blank&amp;cb=${cachebuster}" frameborder="0" scrolling="no" width="160" height="600" allowtransparency="true"><a href="http://162.218.115.228/delivery/ck.php?n=a42b206d&amp;cb=${cachebuster}" target="_blank"><img src="http://162.218.115.228/delivery/avw.php?zoneid=147&amp;cb=${cachebuster}&amp;n=a42b206d" border="0" alt=""></a></iframe>
             <script type="text/javascript" src="http://162.218.115.228/delivery/ag.php"></script>
         </div>
+    </div>
+    <div style="margin: 1em;">
+        <a href="http://modifywatches.com/purplekecleon"><img src="/static/images/watchesad.png" style="width: 100%;"></a>
     </div>
     <!--
     <section>
