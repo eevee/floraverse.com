@@ -48,12 +48,12 @@
             <nav class="floraverse-navbar">
                 <ul class="inline plain">
                     <li><a href="/"><img src="/static/images/global-nav-home.png" alt="home"></a></li>
-                    <li><img src="/static/images/global-nav-wiki.png" alt="wiki" style="opacity: 0.3;"></li>
-                    <li><a href="/about"><img src="/static/images/global-nav-about.png" alt="about"></a></li>
+                    <li><a href="/wiki/"><img src="/static/images/global-nav-wiki.png" alt="wiki"></a></li>
+                    <li><a href="/about/"><img src="/static/images/global-nav-newreader.png" alt="new reader"></a></li>
                     <li><img src="/static/images/global-nav-community.png" alt="community" style="opacity: 0.3;"></li>
                     <li><a href="/comic/"><img src="/static/images/global-nav-archive.png" alt="archive"></a></li>
                     <li><a href="http://papayakitty.com/floracast/"><img src="/static/images/global-nav-podcast.png" alt="podcast"></a></li>
-                    <li><a href="/contact"><img src="/static/images/global-nav-contact.png" alt="contact"></a></li>
+                    <li><a href="/contact/"><img src="/static/images/global-nav-contact.png" alt="contact"></a></li>
                     <li><a href="irc://irc.veekun.com/flora"><img src="/static/images/global-nav-chatroom.png" alt="chatroom"></a></li>
                 </ul>
             </nav>
