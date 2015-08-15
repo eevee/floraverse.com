@@ -1,11 +1,10 @@
 <%inherit file="spline:templates/_base.mako"/>
-<%! import random %>
 
 <%block name="head_extra">
     ${parent.head_extra()}
     <link rel="stylesheet" type="text/css" href="${request.route_url('pyscss', css_path='floraverse')}">
     <link rel="icon" type="image/png" href="${request.static_url('spline:assets/images/favicon.png')}">
-    <script src="http://ads.thehiveworks.com/delivery/spcjs.php?id=118"></script>
+    <script async src="//162.218.115.228/delivery/asyncjs.php"></script>
 </%block>
 
 
@@ -67,10 +66,7 @@
 
 <%block name="main">
     <div class="ad ad-728x90">
-        <!--/* Zone www.floraverse.com Floraverse - 728x90 */-->
-        <% cachebuster = random.randrange(1000000) %>
-        <iframe id="a474cc64" name="a474cc64" src="http://162.218.115.228/delivery/afr.php?n=a474cc64&amp;zoneid=146&amp;target=_blank&amp;cb=${cachebuster}" frameborder="0" scrolling="no" width="728" height="90" allowtransparency="true"><a href="http://162.218.115.228/delivery/ck.php?n=ac23bdad&amp;cb=${cachebuster}" target="_blank"><img src="http://162.218.115.228/delivery/avw.php?zoneid=146&amp;cb=${cachebuster}&amp;n=ac23bdad" border="0" alt=""></a></iframe>
-        <script type="text/javascript" src="http://162.218.115.228/delivery/ag.php"></script>
+        <ins data-revive-zoneid="146" data-revive-target="_blank" data-revive-id="c7611038ee0a8a1d6decc9bd53035acf"></ins>
     </div>
     ${parent.main()}
 </%block>

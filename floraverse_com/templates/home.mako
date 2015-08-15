@@ -1,14 +1,10 @@
 <%inherit file="spline:templates/home.mako"/>
-<%! import random %>
 
 <%block name="main">
 <main class="front-page-layout">
 <div class="front-page-main">
     <div class="ad ad-728x90">
-        <!--/* Zone www.floraverse.com Floraverse - 728x90 */-->
-        <% cachebuster = random.randrange(1000000) %>
-        <iframe id="a474cc64" name="a474cc64" src="http://162.218.115.228/delivery/afr.php?n=a474cc64&amp;zoneid=146&amp;target=_blank&amp;cb=${cachebuster}" frameborder="0" scrolling="no" width="728" height="90" allowtransparency="true"><a href="http://162.218.115.228/delivery/ck.php?n=ac23bdad&amp;cb=${cachebuster}" target="_blank"><img src="http://162.218.115.228/delivery/avw.php?zoneid=146&amp;cb=${cachebuster}&amp;n=ac23bdad" border="0" alt=""></a></iframe>
-        <script type="text/javascript" src="http://162.218.115.228/delivery/ag.php"></script>
+        <ins data-revive-zoneid="146" data-revive-target="_blank" data-revive-id="c7611038ee0a8a1d6decc9bd53035acf"></ins>
     </div>
 
 ## TODO ~*whoops*~ there's no way for the comic to express that it needs this present on the homepage
@@ -29,14 +25,14 @@ ${request.registry.spline_plugins['comic'].render(context, request, 'latest-page
         </div>
 
         <div class="ad ad-160x600">
-            <!--/* Zone www.floraverse.com Floraverse - 160x600 */-->
-            <% cachebuster = random.randrange(1000000) %>
-            <iframe id="ac5947a7" name="ac5947a7" src="http://162.218.115.228/delivery/afr.php?n=ac5947a7&amp;zoneid=147&amp;target=_blank&amp;cb=${cachebuster}" frameborder="0" scrolling="no" width="160" height="600" allowtransparency="true"><a href="http://162.218.115.228/delivery/ck.php?n=a42b206d&amp;cb=${cachebuster}" target="_blank"><img src="http://162.218.115.228/delivery/avw.php?zoneid=147&amp;cb=${cachebuster}&amp;n=a42b206d" border="0" alt=""></a></iframe>
-            <script type="text/javascript" src="http://162.218.115.228/delivery/ag.php"></script>
+            <ins data-revive-zoneid="147" data-revive-target="_blank" data-revive-id="c7611038ee0a8a1d6decc9bd53035acf"></ins>
         </div>
     </div>
     <div style="margin: 1em;">
         <a href="http://modifywatches.com/purplekecleon"><img src="/static/images/watchesad.png" style="width: 100%;"></a>
+    </div>
+    <div class="ad ad-300x250">
+        <ins data-revive-zoneid="236" data-revive-target="_blank" data-revive-id="c7611038ee0a8a1d6decc9bd53035acf"></ins>
     </div>
     <!--
     <section>
