@@ -10,15 +10,38 @@ body > header {
     background: #44436f;
 }
 
-.floraverse-front-page-sidebar {
-    @include flexbox;
-    margin: 1em 0.5em;
+.front-page-sidebar {
+    margin-left: 1em;
+}
 
-    .floraverse-front-page-sidebar-merch {
+.floraverse-sidebar {
+    @include flexbox;
+
+    .floraverse-sidebar-merch {
         @include flex(1);
         @include flexbox;
         @include flex-direction(column);
-        margin: 1em;
+        @include justify-content(space-around);
+        margin-right: 1em;
+        background: #44436f;
+
+        a {
+            display: block;
+            margin: 1em;
+            background: #f0d1f9;
+        }
+        img {
+            display: block;
+            width: 100%;
+
+            &:hover {
+                opacity: 0.67;
+            }
+        }
+    }
+    .floraverse-sidebar-hiveworks {
+        @include flex(0 0);
+        width: 160px;  // size of the ad
 
         img {
             width: 100%;

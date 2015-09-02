@@ -65,10 +65,41 @@
 </%block>
 
 <%block name="main">
+<main class="front-page-layout">
+<div class="front-page-main">
     <div class="ad ad-728x90">
         <ins data-revive-zoneid="146" data-revive-target="_blank" data-revive-id="c7611038ee0a8a1d6decc9bd53035acf"></ins>
     </div>
-    ${parent.main()}
+
+    ${self.default_tile()}
+</div>
+<div class="front-page-sidebar">
+    <div id="ibar"></div>
+    <script src="http://www.thehiveworks.com/jumpbar.js"></script>
+
+    <div class="floraverse-sidebar">
+        <div class="floraverse-sidebar-merch">
+            <a href="https://www.patreon.com/floraverse"><img src="/static/images/sidebar-patreon.png"></a>
+            <a href="https://www.patreon.com/floraverse"><img src="/static/images/sidebar-music.png"></a>
+            <a href="https://www.patreon.com/floraverse"><img src="/static/images/sidebar-prints.png"></a>
+            <a href="https://www.patreon.com/floraverse"><img src="/static/images/sidebar-shirts.png"></a>
+        </div>
+
+        <div class="floraverse-sidebar-hiveworks">
+            <a href="http://www.thehiveworks.com/"><img src="/static/images/home-hiveworks.png"></a>
+            <div class="ad ad-160x600">
+                <ins data-revive-zoneid="147" data-revive-target="_blank" data-revive-id="c7611038ee0a8a1d6decc9bd53035acf"></ins>
+            </div>
+        </div>
+    </div>
+    <div style="margin: 1em;">
+        <a href="http://modifywatches.com/purplekecleon"><img src="/static/images/watchesad.png" style="width: 100%;"></a>
+    </div>
+    <div class="ad ad-300x250">
+        <ins data-revive-zoneid="236" data-revive-target="_blank" data-revive-id="c7611038ee0a8a1d6decc9bd53035acf"></ins>
+    </div>
+</div>
+</main>
 </%block>
 
 ${next.body()}
