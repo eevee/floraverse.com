@@ -80,9 +80,9 @@
     <div class="floraverse-sidebar">
         <div class="floraverse-sidebar-merch">
             <a href="https://www.patreon.com/floraverse"><img src="/static/images/sidebar-patreon.png"></a>
-            <a href="https://www.patreon.com/floraverse"><img src="/static/images/sidebar-music.png"></a>
-            <a href="https://www.patreon.com/floraverse"><img src="/static/images/sidebar-prints.png"></a>
-            <a href="https://www.patreon.com/floraverse"><img src="/static/images/sidebar-shirts.png"></a>
+            <a href="https://floraverse.bandcamp.com/"><img src="/static/images/sidebar-music.png"></a>
+            <a href="https://store.floraverse.com/"><img src="/static/images/sidebar-prints.png"></a>
+            <a href="http://hivemill.com/collections/floraverse"><img src="/static/images/sidebar-shirts.png"></a>
         </div>
 
         <div class="floraverse-sidebar-hiveworks">
