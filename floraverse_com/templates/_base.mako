@@ -44,18 +44,18 @@
             </a>
         </div>
     </div>
-            <nav class="floraverse-navbar">
-                <ul class="inline plain">
-                    <li><a href="/"><img src="/static/images/global-nav-home.png" alt="home"></a></li>
-                    <li><a href="/wiki/"><img src="/static/images/global-nav-wiki.png" alt="wiki"></a></li>
-                    <li><a href="/about/"><img src="/static/images/global-nav-newreader.png" alt="new reader"></a></li>
-                    <li><a href="http://community.floraverse.com/"><img src="/static/images/global-nav-community.png" alt="community"></a></li>
-                    <li><a href="/comic/"><img src="/static/images/global-nav-archive.png" alt="archive"></a></li>
-                    <li><a href="http://papayakitty.com/floracast/"><img src="/static/images/global-nav-podcast.png" alt="podcast"></a></li>
-                    <li><a href="/contact/"><img src="/static/images/global-nav-contact.png" alt="contact"></a></li>
-                    <li><a href="irc://irc.veekun.com/flora"><img src="/static/images/global-nav-chatroom.png" alt="chatroom"></a></li>
-                </ul>
-            </nav>
+    <nav class="floraverse-navbar">
+        <ul class="inline plain">
+            <li><a href="/"><img src="/static/images/global-nav-home.png" alt="home"></a></li>
+            <li><a href="/wiki/"><img src="/static/images/global-nav-wiki.png" alt="wiki"></a></li>
+            <li><a href="/about/"><img src="/static/images/global-nav-newreader.png" alt="new reader"></a></li>
+            <li><a href="http://community.floraverse.com/"><img src="/static/images/global-nav-community.png" alt="community"></a></li>
+            <li><a href="/comic/"><img src="/static/images/global-nav-archive.png" alt="archive"></a></li>
+            <li><a href="http://papayakitty.com/floracast/"><img src="/static/images/global-nav-podcast.png" alt="podcast"></a></li>
+            <li><a href="/contact/"><img src="/static/images/global-nav-contact.png" alt="contact"></a></li>
+            <li><a href="irc://irc.veekun.com/flora"><img src="/static/images/global-nav-chatroom.png" alt="chatroom"></a></li>
+        </ul>
+    </nav>
 </%block>
 
 <%block name="extra_global_nav">
@@ -69,6 +69,9 @@
 <div class="front-page-main">
     <div class="ad ad-728x90">
         <ins data-revive-zoneid="146" data-revive-target="_blank" data-revive-id="c7611038ee0a8a1d6decc9bd53035acf"></ins>
+    </div>
+    <div class="temp-extra-banner">
+        <a href=""><img src="http://papayakitty.com/puppets/dolladr.png" alt="Beleth dolls!  Fund now on Kickstarter!"></a>
     </div>
 
     ${self.default_tile()}
