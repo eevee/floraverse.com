@@ -70,9 +70,6 @@
     <div class="ad ad-728x90">
         <ins data-revive-zoneid="146" data-revive-target="_blank" data-revive-id="c7611038ee0a8a1d6decc9bd53035acf"></ins>
     </div>
-    <div class="temp-extra-banner">
-        <a href="https://www.kickstarter.com/projects/floraverse/floraverse-beleth-makes-dolls-official-plush-run"><img src="http://papayakitty.com/puppets/dolladr.png" alt="Beleth dolls!  Fund now on Kickstarter!"></a>
-    </div>
 
     ${self.default_tile()}
 </div>
