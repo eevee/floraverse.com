@@ -51,7 +51,6 @@
             <li><a href="/about/"><img src="/static/images/global-nav-newreader.png" alt="new reader"></a></li>
             <li><a href="http://community.floraverse.com/"><img src="/static/images/global-nav-community.png" alt="community"></a></li>
             <li><a href="/comic/"><img src="/static/images/global-nav-archive.png" alt="archive"></a></li>
-            <li><a href="http://papayakitty.com/floracast/"><img src="/static/images/global-nav-podcast.png" alt="podcast"></a></li>
             <li><a href="/contact/"><img src="/static/images/global-nav-contact.png" alt="contact"></a></li>
             <li><a href="irc://irc.veekun.com/flora"><img src="/static/images/global-nav-chatroom.png" alt="chatroom"></a></li>
         </ul>
@@ -61,7 +60,6 @@
 <%block name="extra_global_nav">
     ${parent.extra_global_nav()}
     <li><a href="irc://irc.veekun.com/floraverse">Chat</a></li>
-    <li><a href="http://papayakitty.com/floracast/">Podcast</a></li>
 </%block>
 
 <%block name="main">
