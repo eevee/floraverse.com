@@ -93,7 +93,7 @@
         </div>
     </div>
     <div style="margin: 1em;">
-        <a href="http://modifywatches.com/collections/glitched-puppet"><img src="/static/images/watchesad.png" style="width: 100%;"></a>
+        <a href="https://store.floraverse.com/t/plushes-and-dolls/beleth-makes-dolls"><img src="/static/images/sidebar-dolls.png" style="width: 100%;"></a>
     </div>
     <div class="ad ad-300x250">
         <ins data-revive-zoneid="236" data-revive-target="_blank" data-revive-id="c7611038ee0a8a1d6decc9bd53035acf"></ins>
