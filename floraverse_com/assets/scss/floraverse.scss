@@ -196,6 +196,6 @@ body > header {
 }
 
 // block disqus's obnoxious ass scummy text ads, which are thankfully in a separate iframe
-#dsq-app4 {
+iframe[src^="//disqusads.com"] {
     display: none;
 }
