@@ -4,7 +4,6 @@
     ${parent.head_extra()}
     <link rel="stylesheet" type="text/css" href="${request.route_url('pyscss', css_path='floraverse')}">
     <link rel="icon" type="image/png" href="${request.static_url('spline:assets/images/favicon.png')}">
-    <script async src="//162.218.115.228/delivery/asyncjs.php"></script>
 </%block>
 
 
@@ -65,11 +64,6 @@
 <%block name="main">
 <main class="front-page-layout">
 <div class="front-page-main">
-    <!--
-    <div class="ad ad-728x90">
-        <ins data-revive-zoneid="146" data-revive-target="_blank" data-revive-id="c7611038ee0a8a1d6decc9bd53035acf"></ins>
-    </div>
-    -->
     <div class="temp-extra-banner">
         <a href="http://floraverse.limitedrun.com/"><img src="/static/images/kickstarter.png" alt="Limited run of Beleth, Orobas, and Amdusias figures!"></a>
     </div>
@@ -77,6 +71,10 @@
     ${self.default_tile()}
 </div>
 <div class="front-page-sidebar">
+    <div class="floraverse-sidebar-hiveworks">
+        <a href="http://www.thehiveworks.com/"><img src="/static/images/home-hiveworks.png"></a>
+    </div>
+
     <div id="ibar"></div>
     <script src="http://www.thehiveworks.com/jumpbar.js"></script>
 
@@ -87,19 +85,9 @@
             <a href="https://store.floraverse.com/"><img src="/static/images/sidebar-prints.png"></a>
             <a href="http://hivemill.com/collections/floraverse"><img src="/static/images/sidebar-shirts.png"></a>
         </div>
-
-        <div class="floraverse-sidebar-hiveworks">
-            <a href="http://www.thehiveworks.com/"><img src="/static/images/home-hiveworks.png"></a>
-            <div class="ad ad-160x600">
-                <ins data-revive-zoneid="147" data-revive-target="_blank" data-revive-id="c7611038ee0a8a1d6decc9bd53035acf"></ins>
-            </div>
-        </div>
     </div>
-    <div style="margin: 1em;">
+    <div style="margin: 1em 0;">
         <a href="https://store.floraverse.com/t/plushes-and-dolls/beleth-makes-dolls"><img src="/static/images/sidebar-dolls.png" style="width: 100%;"></a>
-    </div>
-    <div class="ad ad-300x250">
-        <ins data-revive-zoneid="236" data-revive-target="_blank" data-revive-id="c7611038ee0a8a1d6decc9bd53035acf"></ins>
     </div>
 </div>
 </main>

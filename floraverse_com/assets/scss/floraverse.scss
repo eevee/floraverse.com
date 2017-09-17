@@ -10,8 +10,9 @@ body > header {
     background: #44436f;
 }
 
-.front-page-sidebar {
+.front-page-layout .front-page-sidebar {
     margin-left: 1em;
+    width: 250px;
 }
 
 .floraverse-sidebar {
@@ -20,14 +21,18 @@ body > header {
     .floraverse-sidebar-merch {
         @include flex(0 1 auto);
         @include flexbox;
-        @include flex-direction(column);
+        @include flex-direction(row);
+        @include flex-wrap(wrap);
         @include justify-content(space-around);
-        margin-right: 1em;
+        padding: 0.5em;
         background: #44436f;
 
         a {
             display: block;
-            margin: 1em;
+            width: 40%;
+            margin: 5%;
+            width: calc(50% - 1em);
+            margin: calc(0.5em);
             background: #f0d1f9;
         }
         img {
@@ -39,13 +44,13 @@ body > header {
             }
         }
     }
-    .floraverse-sidebar-hiveworks {
-        @include flex(none);
-        width: 160px;  // size of the ad
+}
+.floraverse-sidebar-hiveworks {
+    @include flex(none);
+    margin: 1em;
 
-        img {
-            width: 100%;
-        }
+    img {
+        width: 100%;
     }
 }
 
