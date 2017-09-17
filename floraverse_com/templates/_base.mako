@@ -51,7 +51,7 @@
             <li><a href="http://community.floraverse.com/"><img src="/static/images/global-nav-community.png" alt="community"></a></li>
             <li><a href="/comic/"><img src="/static/images/global-nav-archive.png" alt="archive"></a></li>
             <li><a href="/contact/"><img src="/static/images/global-nav-contact.png" alt="contact"></a></li>
-            <li><a href="https://discord.gg/UTWZ8XE"><img src="/static/images/global-nav-chatroom.png" alt="chatroom"></a></li>
+            <li><a href="https://discord.gg/j2hmfVN"><img src="/static/images/global-nav-chatroom.png" alt="chatroom"></a></li>
         </ul>
     </nav>
 </%block>
