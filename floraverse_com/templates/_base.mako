@@ -64,10 +64,6 @@
 <%block name="main">
 <main class="front-page-layout">
 <div class="front-page-main">
-    <div class="temp-extra-banner">
-        <a href="http://floraverse.limitedrun.com/"><img src="/static/images/kickstarter.png" alt="Limited run of Beleth, Orobas, and Amdusias figures!"></a>
-    </div>
-
     ${self.default_tile()}
 </div>
 <div class="front-page-sidebar">
