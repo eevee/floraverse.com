@@ -48,7 +48,6 @@
             <li><a href="/"><img src="/static/images/global-nav-home.png" alt="home"></a></li>
             <li><a href="/wiki/"><img src="/static/images/global-nav-wiki.png" alt="wiki"></a></li>
             <li><a href="/about/"><img src="/static/images/global-nav-newreader.png" alt="new reader"></a></li>
-            <li><a href="http://community.floraverse.com/"><img src="/static/images/global-nav-community.png" alt="community"></a></li>
             <li><a href="/comic/"><img src="/static/images/global-nav-archive.png" alt="archive"></a></li>
             <li><a href="/contact/"><img src="/static/images/global-nav-contact.png" alt="contact"></a></li>
             <li><a href="https://discord.gg/j2hmfVN"><img src="/static/images/global-nav-chatroom.png" alt="chatroom"></a></li>
