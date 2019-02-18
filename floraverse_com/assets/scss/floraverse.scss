@@ -7,7 +7,7 @@ body {
 
 body > header {
     padding: 0.5em;
-    background: #44436f;
+    background: grayscale(#44436f);
 }
 
 .front-page-layout .front-page-sidebar {
@@ -25,7 +25,7 @@ body > header {
         @include flex-wrap(wrap);
         @include justify-content(space-around);
         padding: 0.5em;
-        background: #44436f;
+        background: grayscale(#44436f);
 
         a {
             display: block;
@@ -33,7 +33,7 @@ body > header {
             margin: 5%;
             width: calc(50% - 1em);
             margin: calc(0.5em);
-            background: #f0d1f9;
+            background: grayscale(#f0d1f9);
         }
         img {
             display: block;
@@ -67,7 +67,7 @@ body > header {
     @include justify-content(space-between);
     @include align-items(center);
     padding: 0.5em;
-    background: #cac6cf;
+    background: grayscale(#cac6cf);
 
     > .-spacer {
         @include flex(1);
@@ -80,7 +80,7 @@ body > header {
     @include align-items(flex-end);
     @include justify-content(center);
     margin: 0 0.5em;
-    background-color: #817390;
+    background-color: grayscale(#817390);
     // TODO alas i can't get an asset url from in here, so i gotta hardcode this
     background-image:
         url(/static/images/global-title-background-full.png);
@@ -92,7 +92,7 @@ body > header {
     }
     .floraverse-banner--left {
         // space between beleth's tail and the logo
-        margin-right: -50px;
+        //margin-right: -50px;
         // beleth's overlap with the left box
         margin-left: -30px;
     }
@@ -101,7 +101,7 @@ body > header {
     }
     .floraverse-banner--right {
         // space between the logo and andre's...  nose
-        margin-left: -110px;
+        //margin-left: -110px;
         // andre's overlap with the frame
         margin-bottom: -19px;
         // andre's overlap with the right box
@@ -131,19 +131,19 @@ body > header {
     }
 }
 .floraverse-button-deviantart {
-    background: #3a6057;
+    background: grayscale(#3a6057);
 }
 .floraverse-button-twitter {
     background: white;
 }
 .floraverse-button-tumblr {
-    background: #160d4a;
+    background: grayscale(#160d4a);
 }
 .floraverse-button-patreon {
     background: white;
 }
 .floraverse-button-facebook {
-    background: #324274;
+    background: grayscale(#324274);
 }
 .floraverse-button-rss {
     background: white;
@@ -155,7 +155,7 @@ body > header {
     padding: 0.5em;
 
     color: white;
-    background: #242254;
+    background: grayscale(#242254);
 
     > ul {
         @include flexbox;
