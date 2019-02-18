@@ -199,3 +199,7 @@ body > header {
 iframe[src^="//disqusads.com"] {
     display: none;
 }
+// gray.
+#disqus_thread {
+    filter: grayscale(100%);
+}
