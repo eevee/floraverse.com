@@ -49,8 +49,8 @@
             <li><a href="/wiki/"><img src="/static/images/global-nav-wiki.png" alt="wiki"></a></li>
             <li><a href="/about/"><img src="/static/images/global-nav-newreader.png" alt="new reader"></a></li>
             <li><a href="/comic/"><img src="/static/images/global-nav-archive.png" alt="archive"></a></li>
-            <li><a href="/contact/"><img src="/static/images/global-nav-contact.png" alt="contact"></a></li>
-            <li><a href="https://discord.gg/j2hmfVN"><img src="/static/images/global-nav-chatroom.png" alt="chatroom"></a></li>
+            ##<li><a href="/contact/"><img src="/static/images/global-nav-contact.png" alt="contact"></a></li>
+            ##<li><a href="https://discord.gg/j2hmfVN"><img src="/static/images/global-nav-chatroom.png" alt="chatroom"></a></li>
         </ul>
     </nav>
 </%block>
@@ -66,19 +66,11 @@
     ${self.default_tile()}
 </div>
 <div class="front-page-sidebar">
-    <div class="floraverse-sidebar-hiveworks">
-        <a href="http://www.thehiveworks.com/"><img src="/static/images/home-hiveworks.png"></a>
-    </div>
-
-    <div id="ibar"></div>
-    <script src="http://www.thehiveworks.com/jumpbar.js"></script>
-
     <div class="floraverse-sidebar">
         <div class="floraverse-sidebar-merch">
             <a href="https://www.patreon.com/floraverse"><img src="/static/images/sidebar-patreon.png"></a>
             <a href="https://floraverse.bandcamp.com/"><img src="/static/images/sidebar-music.png"></a>
             <a href="https://store.floraverse.com/"><img src="/static/images/sidebar-prints.png"></a>
-            <a href="http://hivemill.com/collections/floraverse"><img src="/static/images/sidebar-shirts.png"></a>
         </div>
     </div>
     <div style="margin: 1em 0;">
